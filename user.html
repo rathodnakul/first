@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>userdetails</title>
+    <style>
+ .body-container{
+            width: 50%;
+            margin: 50px auto;
+           
+        }
+
+        ul li{
+            list-style-type: none;
+           
+           
+        }
+
+        fieldset{
+            margin: 3px auto;
+            width: 70%;
+            border: 10px solid rgb(218, 214, 4);
+            font-size: 50px;
+            
+        }
+        legend{
+            color: rgb(0, 224, 206);
+        }
+         
+        body{
+            background-image: url(bg5.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        label{
+            color:blue;
+        }
+        #Submit{
+            border-radius: 15%;
+            border-color: greenyellow;
+            margin-left: 42%;
+            color: blue;
+            font-size: 50px;
+            padding: 2%;
+        }
+        input[type=text]{
+            padding: 13px;
+            width: 30%;
+        }
+        input[type=email]{
+            padding: 13px;
+            width: 30%;
+        }
+        #Reset{
+            border-radius: 20%;
+            margin-left: 42%;
+            color: green;
+            font-size: 40px; 
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <form action="nick.php">
+        <fieldset>
+        <legend>User sign up</legend>
+        <div>
+        <label for="f_name">First Name:</label>
+        <input type="text" first name="enter your first name" id="f_name" placeholder="Enter your first name">  
+        </div>
+
+        <br>
+        <div>
+        <label for="m_name">Middle Name:</label>
+        <input type="text" middle name="enter your first name" id="m_name" placeholder="Enter your middle name">  
+        </div>
+   
+        <br>
+        <div>
+        <label for="l_name">Last Name:</label>
+        <input type="text" last name="enter your last name" id="l_name" placeholder="Enter your last name">
+        </div>
+
+        <br>
+        <div>
+        <label for="M_No">Mobile No:</label>
+        <input type="text" Mobile No.="enter your Mobile NO." id="M_No" placeholder="Enter your mobile number">
+        </div>
+
+        <br>
+        <div>
+        <label for="T_area">Address:</label>
+        <textarea name="Address" id="T_area" cols="80" rows="3" placeholder="Enter Your Address"></textarea>
+        </div>
+
+        <br> 
+        <div>
+        <label for="Email">Email:</label>
+        <input type="email" email="enter your email here" id="Email" placeholder="Enter your Email ">
+       </div>
+
+       <br> 
+       <div class="Submit">
+        <input type="submit" value="sign up" id="Submit">
+       </div>
+
+        <br>
+       <div class="Reset">
+        <input type="Reset" value="Reset form " id="Reset">
+       </div> 
+
+    </fieldset>
+
+</body>
+</html>
